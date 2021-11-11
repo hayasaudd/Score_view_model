@@ -34,6 +34,14 @@ class MainFragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.addone.setOnClickListenir()
+        binding.subtow.setOnClickListenir()
+        binding.addfour.setOnClickListenir()
+
+        super.onViewCreated(view, savedInstanceState)
+    }
+
 
 
 
