@@ -16,18 +16,18 @@ class MainViewModel : ViewModel() {
     //functions calcoulate
     fun addone(){
 
-        binding.addone.setOnClickListenir()
+
         score++
 
     }
 
     fun subtow(){
-        binding.subtow.setOnClickListenir()
+
         score = score -2
     }
 
     fun addfour(){
-        binding.addfour.setOnClickListenir()
+
         score = score +4
     }
 
